@@ -1,0 +1,23 @@
+---
+description: Front-end rules for the Tri-Party Conversational System.
+globs: 
+alwaysApply: false
+---
+---
+description: >
+  Front-end rules for the Tri-Party Conversational System.
+  Tech stack: **React (Vite, JavaScript, ESM) + TailwindCSS + socket.io-client + TanStack Query**.
+  All code camel-cased, markdown messages in UI.
+---
+
+# 🎨  Front-End Guide
+
+## Stack & Conventions
+| Layer | Lib | Note |
+|-------|-----|------|
+| Bundler | **Vite + React 18** | plain JS, no TypeScript |
+| Styling | TailwindCSS + shadcn/ui | accessible primitives |
+| Data | TanStack Query | fetch + cache REST JSON |
+| Realtime | socket.io-client | subscribe per conversation |
+| Graph | react-flow | show message flow |
+| Env | `VITE_API_URL` | backend origin |
