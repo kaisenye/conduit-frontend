@@ -42,9 +42,3 @@ export const connectSocket = () => {
     socket.connect();
   }
 };
-
-export const disconnectSocket = () => {
-  if (socket && socket.connected) {
-    socket.disconnect();
-  }
-}; 

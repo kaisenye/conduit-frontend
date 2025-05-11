@@ -1,5 +1,5 @@
 import { useEffect, useCallback, useState } from 'react';
-import { getSocket, connectSocket, disconnectSocket } from '../services/socket';
+import { getSocket, connectSocket } from '../services/socket';
 
 const logSocketEvent = (event, data) => {
   console.log(`[Socket Event] ${event}:`, data);

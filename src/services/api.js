@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query'
 
-const API_URL = import.meta.env.VITE_API_URL
+const API_URL = import.meta.env.VITE_DEV_URL
 
 // Fetch user data by role
 export const fetchUserByRole = async (role) => {
